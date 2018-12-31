@@ -1,30 +1,35 @@
 {
-	"name": "objection-graphql-postgres-issue",
-	"version": "1.0.0",
-	"description":
-		"A repo to replicate an issue experienced when using Objection.js with objection-graphql, knexjs and postgres",
-	"main": "index.js",
-	"scripts": {
-		"createDatabase": "node scripts/createDatabase.js",
-		"dev": "nodemon index",
-		"migrate": "npx knex migrate:latest",
-		"rollback": "npx knex migrate:rollback",
-		"test": "NODE_ENV=test npx mocha test/makeGraphqlQuery.js --exit"
-	},
-	"keywords": ["objection.js", "graphql", "knex", "postgres"],
-	"author": "Paul Jensen <paul.jensen@starcount.com>",
-	"license": "MIT",
-	"dependencies": {
-		"deepmerge": "^2.0.1",
-		"express": "^4.16.2",
-		"graphql": "^0.13.0",
-		"knex": "^0.14.3",
-		"objection": "^0.9.4",
-		"objection-graphql": "^0.3.1",
-		"pg": "^7.4.1"
-	},
-	"devDependencies": {
-		"mocha": "^5.0.0",
-		"nodemon": "^1.14.12"
-	}
+  "name": "objection-graphql-postgres-issue",
+  "version": "1.0.0",
+  "description": "A repo to replicate an issue experienced when using Objection.js with objection-graphql, knexjs and postgres",
+  "main": "index.js",
+  "scripts": {
+    "createDatabase": "node scripts/createDatabase.js",
+    "dev": "nodemon index",
+    "migrate": "npx knex migrate:latest",
+    "rollback": "npx knex migrate:rollback",
+    "test": "NODE_ENV=test npx mocha test/makeGraphqlQuery.js --exit"
+  },
+  "keywords": [
+    "objection.js",
+    "graphql",
+    "knex",
+    "postgres"
+  ],
+  "author": "Paul Jensen <paul.jensen@starcount.com>",
+  "license": "MIT",
+  "dependencies": {
+    "deepmerge": "^2.0.1",
+    "express": "^4.16.2",
+    "graphql": "^0.13.0",
+    "knex": "^0.16.3",
+    "objection": "^0.9.4",
+    "objection-graphql": "^0.3.1",
+    "pg": "^7.4.1"
+  },
+  "devDependencies": {
+    "atob": "^2.1.2",
+    "mocha": "^5.0.0",
+    "nodemon": "^1.18.9"
+  }
 }

@@ -22,7 +22,7 @@
     "deepmerge": "^2.0.1",
     "express": "^4.16.2",
     "graphql": "^0.13.0",
-    "knex": "^0.19.5",
+    "knex": "^0.20.4",
     "objection": "^0.9.4",
     "objection-graphql": "^0.3.1",
     "pg": "^7.4.1"

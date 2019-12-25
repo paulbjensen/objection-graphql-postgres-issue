@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "atob": "^2.1.2",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.15",
     "mocha": "^5.0.0",
     "nodemon": "^1.18.11"
   }

@@ -23,7 +23,7 @@
     "express": "^4.17.1",
     "graphql": "^0.13.2",
     "knex": "^0.20.12",
-    "objection": "^0.9.4",
+    "objection": "^2.2.16",
     "objection-graphql": "^0.3.3",
     "pg": "^7.18.2"
   },
